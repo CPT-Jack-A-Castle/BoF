@@ -1,1 +1,2 @@
-/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 5000
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 1500
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q 33694232 -l 1500 
